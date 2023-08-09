@@ -27,3 +27,4 @@ target/*
 test-output/
 screenshot/
 excel/
+.settings
