@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Chrome Test">
+		<classes>
+			<parameter name="browser" value="chrome" />
+			<class name="com.fullstackbd.dataprovider.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Edge Test">
+		<classes>
+			<parameter name="browser" value="edge" />
+			<class name="com.fullstackbd.dataprovider.LoginTest" />
+		</classes>
+	</test>  <!-- Test -->
+</suite> <!-- Suite -->
